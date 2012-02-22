@@ -57,7 +57,7 @@ end
 
 group :resque do
   gem "resque"
-  gem "SystemTimer"
+  gem "SystemTimer", :platforms => :ruby_18
 end
 
 group :stomp do
